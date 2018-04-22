@@ -63,7 +63,7 @@
     <!-- Menu lateral -->
     <aside class="main-sidebar">
         <section class="sidebar">
-            @include('layouts.adminlte.menu', ['data' => 'data'])
+            @include('layouts.adminlte.menu', ['menu' => $menu])
         </section>
     </aside>
 

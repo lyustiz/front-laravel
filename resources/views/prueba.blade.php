@@ -5,5 +5,8 @@
 @section( 'subtitulo' , 'Asignacion Vehiculos' ) 
 
 @section( 'contenido' )
-    <p>contenido</p>
+   
+  
+    
+  
 @endsection

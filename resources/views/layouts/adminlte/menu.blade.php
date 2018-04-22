@@ -29,4 +29,10 @@
     <li><a href="#">Chofer Vehiculo</a></li>
     </ul>
 </li>
+
+{!! 
+        Menu::build($menu, function ($menu, $label, $link) {
+                $menu->link($link, $label);
+            })
+!!}
 </ul>

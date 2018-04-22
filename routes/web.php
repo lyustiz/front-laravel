@@ -11,9 +11,17 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('prueba');
+
+    $items = [
+        '/' => 'Home',
+        '/about' => 'About',
+        '/contact' => 'Contact',
+    ];
+    return view('prueba', ['menu' => $items]);
 });
+
 
 Auth::routes();
 
